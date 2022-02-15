@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    background-color: #222;
+    min-height: 75px;
+}
+
+.wrap{
+    max-width: 1140px;
+    margin: 0 auto;
+    outline: 1px solid red;
+    /* background-color: red; */
+    /* min-height: 75px; */
+}
+.header-flex{
+    display: flex;
+    justify-content: space-between;
+
+}
+.title{
+    min-height: 760px;
+    background-color: #F1E4E6;
+    height: 100px;
+    outline: 1px solid red;
+}
+.test{
+    height: 70px;
+    width: 15px;
+    background-color: crimson;
+}
+.title-wrap{
+    min-height: 760px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.site-heading{
+    width: 400px;
+    margin-left: 5px;
+    margin-right: 95px;
+    /* background-color: coral; */
+}
+.text-fashion{
+    color: red;
+}
+.products{
+    /* height: 100px; */
+    outline: 1px solid green;
+}
+.categories{
+    height: 100px;
+    outline: 1px solid red;
+}
+.feedback{
+    height: 100px;
+    outline: 1px solid green;
+}
+.container{
+    padding: 20px calc(50% - 1140px/2);
+}
