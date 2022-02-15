@@ -23,7 +23,8 @@
 }
 .title{
     min-height: 760px;
-    background-color: #F1E4E6;
+    background-color: #12f167;
+    /* background-color: #F1E4E6; */
     height: 100px;
     outline: 1px solid red;
 }
