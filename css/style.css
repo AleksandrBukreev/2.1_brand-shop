@@ -4,62 +4,222 @@
     box-sizing: border-box;
 }
 
-.header{
-    background-color: #222;
-    min-height: 75px;
+body{
+    font-family: 'Lato', sans-serif;
 }
 
 .wrap{
     max-width: 1140px;
     margin: 0 auto;
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
     /* background-color: red; */
     /* min-height: 75px; */
 }
-.header-flex{
+
+.container{
+    padding: 20px calc(50% - 1140px/2);
+}
+
+.hidden{
+    visibility: hidden;
+    position: absolute;
+    left: -99999px;
+    width: 1px;
+    height: 1px;
+}
+/* шапка */
+.header{
+    background-color: #222;
+    min-height: 75px;
+}
+.header-wrap{
     display: flex;
     justify-content: space-between;
 
 }
+/* заголовок */
 .title{
     min-height: 760px;
-    background-color: #12f167;
-    /* background-color: #F1E4E6; */
-    height: 100px;
-    outline: 1px solid red;
+    background-color: #F1E4E6;
 }
-.test{
-    height: 70px;
-    width: 15px;
-    background-color: crimson;
+
+.title-column{
+    height: 92px;
+    width: 12px;
+    background-color: #F16D7F;
 }
 .title-wrap{
     min-height: 760px;
     display: flex;
     align-items: center;
     justify-content: flex-end;
+    background-image: url("../img/title-bg.png");
+    background-repeat: no-repeat;
+    background-position: -200px;
 }
-.site-heading{
+.heading{
     width: 400px;
     margin-left: 5px;
     margin-right: 95px;
-    /* background-color: coral; */
+    font-weight: 900;
+    font-size: 48px;
 }
-.text-fashion{
-    color: red;
+
+.heading-small{
+    font-weight: 700;
+    font-size: 32px; 
+}
+.heading-red{
+    color: #F16D7F;
 }
 .products{
     /* height: 100px; */
     outline: 1px solid green;
 }
+/* категории товаров */
 .categories{
-    height: 100px;
-    outline: 1px solid red;
+    padding-top: 65px;
+    padding-bottom: 96px;
+    
 }
+
+.categories-wrap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.categories-item{
+    width: 360px;
+    height: 260px;
+    background: #C4C4C4;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.categories-accesories{
+   width: 100%;
+   height: 180px;
+   margin-top: 30px;
+   background-image: url("../img/accesories.jpg"); 
+}
+
+.categories-women{
+    background-image: url("../img/for-women.jpg");
+}
+
+.categories-men{
+    background-image: url("../img/for-men.jpg");
+}
+
+.categories-kids{
+    background-image: url("../img/for-kids.jpg");
+}
+
+.categories-text{
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.categories-title{
+    font-weight: 700;
+    font-size: 24opx;
+    color: #F16D7F;
+}
+/* обратная связь */
 .feedback{
-    height: 100px;
+    height: 448px;
     outline: 1px solid green;
+    background-image: url("../img/feedback-bg.jpg");
+    background-size: cover;
+    /* opacity: 0.5; */
 }
-.container{
-    padding: 20px calc(50% - 1140px/2);
+.feedback-wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.figure{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 360px;
+    height: 225px;
+}
+
+.figure-text{
+    font-weight: normal;
+    font-size: 20px;
+    text-align: center;
+    color: #222224;
+}
+
+.figure-img{
+    padding-bottom: 30px;
+}
+
+.feedback-right{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.feedback-heading{
+    font-weight: 700;
+    font-size: 24px;
+    color: #222224;
+}
+
+.feedback-text{
+    font-weight: 400;
+    font-size: 18px;
+    color: #222224;
+}
+.subscribe {
+    display: flex;
+    margin-top: 32px;
+   }
+   
+   .subscribe-field {
+     border: none;
+     background: #E1E1E1;
+     padding: 20px;
+     border-top-left-radius: 20px;
+     border-bottom-left-radius: 20px;
+   }
+   .subscribe-field:focus {
+     background: grey;
+     border: none;
+     outline: none;
+   }
+   /* .subscribe-field:hover {
+      background: red;
+   } */
+   .subscribe-field::placeholder {
+     color: #000;
+     font-family: inherit;
+   }
+   
+   .subscribe-btn {
+     border: none;
+     background-color: #F16D7F;
+     color: #fff;
+     padding: 20px;
+     border-top-right-radius: 20px;
+     border-bottom-right-radius: 20px;
+     cursor: pointer;
+   }
+   .subscribe-btn:hover{
+     background-color: red;
+   }
+/* подвал */
+.footer{
+    min-height: 79px;
+    background-color: #222;
+    
 }
