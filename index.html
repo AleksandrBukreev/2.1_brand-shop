@@ -6,12 +6,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,400&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
     <header class="header">
-        <div class="wrap header-flex">
+        <div class="wrap header-wrap">
             <div class="header-left">
                 <a href="#"><img src="img/logo.svg" alt="img"></a>
                 <a href="#"><img src="img/search.svg" alt="img"></a>
@@ -23,19 +27,73 @@
             </div>
         </div>
     </header>
-    <div class="title">
-        <div class="wrap">
-            <div class="title-wrap">
-                <div class="test"></div>
-                <h1 class="site-heading">THE BRAND<BR>OF LUXERIOUS <span class="text-fashion">FASHION</span> </h1>
+    <main class="main">
+        <section class="title">
+            <div class="wrap">
+                <div class="title-wrap">
+                    <div class="title-column"></div>
+                    <h1 class="heading">THE BRAND<BR>
+                        <span class="heading-small">OF LUXERIOUS <span class="heading-red">FASHION</span></span>
+                </div>
+                </h1>
             </div>
-        </div>
-    </div>
-    <section class="products">
-        <div class="wrap">товары</div>
+        </section>
+        <section class="categories container">
+            <h2 class="hidden">Категории товаров</h2>
+            <div class="categories-wrap">
+                <div class="categories-item categories-women">
+                    <p class="categories-text">30% OFF</p>
+                    <h3 class="categories-title">FOR WOMEN</h3>
+                </div>
+                <div class="categories-item categories-men">
+                    <p class="categories-text">HOT DEAL</p>
+                    <h3 class="categories-title">FOR MEN</h3>
+                </div>
+                <div class="categories-item categories-kids">
+                    <p class="categories-text">NEW ARRIVALS</p>
+                    <h3 class="categories-title">FOR KIDS</h3>
+                </div>
+                <div class="categories-item categories-accesories">
+                    <p class="categories-text">LUXIROUS & TRENDY</p>
+                    <h3 class="categories-title">ACCESORIES</h3>
+                </div>
+            </div>
+        </section>
+        <section class="products">
+            <div class="wrap products-wrap">
+                товары
+            </div>
+        </section>
+    </main>
+
+    <section class="advantaes container">
+        преимущества
     </section>
-    <div class="categories container">категории товаров</div>
-    <div class="feedback container">обратная связь</div>
+
+    <section class="feedback feedback-wrap container">
+        <div class="feedback-left">
+            <figure class="figure">
+                <img class="figure-img" src="img/figure-img.png" alt="picture">
+                <p class="figure-text">“Vestibulum quis porttitor dui! Quisque viverra nunc mi, a pulvinar purus
+                    condimentum“</p>
+            </figure>
+        </div>
+        <div class="feedback-right">
+            <h3 class="feedback-heading">SUBSCRIBE</h3>
+            <p class="feedback-text">FOR OUR NEWLETTER AND PROMOTION</p>
+            <form class="subscribe" action="#">
+
+                <input class="subscribe-field" type="email" placeholder="Enter Your Email" required>
+                <input class="subscribe-btn" type="submit" value="Subscribe">
+            </form>
+        </div>
+
+
+    </section>
+
+    <footer class="footer container">
+        подвал
+    </footer>
 </body>
 
 </html>
