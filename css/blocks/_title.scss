@@ -1,0 +1,34 @@
+.title{
+    min-height: 760px;
+    background-color: #F1E4E6;
+}
+
+.title-column{
+    height: 92px;
+    width: 12px;
+    background-color: $main-pink;
+}
+.title-wrap{
+    min-height: 760px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-image: url("../img/title-bg.png");
+    background-repeat: no-repeat;
+    background-position: -200px;
+}
+.heading{
+    width: 400px;
+    margin-left: 5px;
+    margin-right: 95px;
+    font-weight: 900;
+    font-size: 48px;
+}
+
+.heading-small{
+    font-weight: 700;
+    font-size: 32px; 
+}
+.heading-red{
+    color: $main-pink;
+}

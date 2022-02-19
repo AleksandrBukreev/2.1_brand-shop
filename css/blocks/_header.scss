@@ -1,0 +1,35 @@
+.header{
+    background-color: #222;
+    min-height: 75px;
+    padding: 18px 0;
+}
+.header-wrap{
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+
+.header-left{
+    width: 111px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.header-search{
+    padding-top: 10px;
+}
+.header-right{
+    width: 168px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.header-account{
+    fill: #FBFBFB;
+}
+
+.header-account:hover{
+    fill: $main-pink;
+}
