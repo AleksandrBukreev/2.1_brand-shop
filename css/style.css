@@ -41,9 +41,26 @@ button{
 .header-wrap{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 
 }
 
+.header-left{
+    width: 111px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 18px;
+}
+
+.header-search{
+    padding-top: 10px;
+}
+.header-right{
+    width: 168px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 18px;
+}
 .header-account{
     fill: #FBFBFB;
 }
@@ -231,6 +248,48 @@ button{
     text-decoration: none;
     background-color:  #F16D7F;
 }
+
+/* преимущества */
+.advantaes{
+    background: #222;
+    padding-top: 103px;
+}
+
+.advantaes-wrap{
+    height: 341px;
+    
+}
+.advantaes-list{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+.advantaes-item{
+    width: 360px;
+    /* height: 134px; */
+    text-align: center;
+}
+
+
+.advantaes-heading{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19.96px;
+    line-height: 24px;
+    color: #FBFBFB;
+    padding-top: 19px;
+    padding-bottom: 16px;
+}
+
+.advantaes-text{
+    font-weight: 300;
+    line-height: 17px;
+    color: #FBFBFB;
+}
+
 /* обратная связь */
 .feedback{
     height: 448px;
