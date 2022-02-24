@@ -1,0 +1,41 @@
+.footer{
+    min-height: 79px;
+    background-color: #222;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-text{
+    color: #FBFBFB;
+}
+
+.social{
+    display: flex;
+    
+}
+
+.social-link{
+    color: #222;
+    background-color: #FBFBFB;
+    margin-right: 10px;
+    font-size: 16px;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+
+    &:hover{
+        background-color: $main-pink;
+        color: #fff;
+    }
+    &:active{
+        background-color: red;
+        color: #222;
+        opacity: 0.5; 
+    }
+}
