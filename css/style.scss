@@ -81,6 +81,25 @@
     padding-left: 11px;
 }
 
+#filter-left{
+    display: none;
+}
+
+#filter-left:checked ~ .nav-filter-left{
+    display: block;
+}
+.nav-filter-left{
+    background-color: #FFFFFF;
+    box-shadow:  5px 5px 5px 5px #222;
+    display: none;
+    height: 764px;
+    top: 75px;
+    width: 232px;
+    position: absolute;
+    top: 300px;
+    z-index: 999;
+    // right: 0;
+}
 .filter-right{
     padding-right: 350px;
 }

@@ -26,6 +26,64 @@
     justify-content: space-between;
     
 }
+#menu{
+    display: none;
+}
+.menu-btn{
+    background-color: gold;
+}
+.nav{
+    background-color: #FFFFFF;
+    box-shadow:  5px 5px 5px 5px #222;
+    display: none;
+    height: 764px;
+    top: 75px;
+    width: 232px;
+    position: absolute;
+    right: 0;
+}
+#menu:checked ~ .nav{
+    display: block;
+}
+.close-btn{
+    position: absolute;
+    top: 16px;
+    right: 16px;
+}
+.nav-heading{
+    margin-top: 37px;
+    margin-left: 50px;
+font-weight: 700;
+font-size: 14px;
+line-height: 17px;
+color: #000000;
+}
+
+.nav-title{
+    list-style: none;
+    margin-top: 24px;
+    margin-left: 33px;
+    margin-bottom: 12px;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+color: $main-pink;
+}
+.nav-item{
+    list-style-type: none;
+    text-decoration: none;
+}
+.nav-link{
+text-decoration: none;
+margin-left: 55px;
+margin-bottom: 11px;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+color: #6F6E6E;
+}
+
+
 .header-account{
     fill: #FBFBFB;
 }

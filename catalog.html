@@ -22,9 +22,53 @@
                 <a class="header-search" href="#"><img src="img/search.svg" alt="img"></a>
             </div>
             <div class="header-right">
-                <button>
+                <input type="checkbox" id="menu">
+                <label class="menu-btn" for="menu"><img class="header-menu" src="img/menu.svg" alt="menu"></label>
+                <nav class="nav">
+
+                    <ul class="nav-list">
+
+                        <label class="close-btn" for="menu">X</label>
+                        <p class="nav-heading">MENU</p>
+
+                        <details>
+                            <summary class="nav-title">MAN</summary>
+                            <ul class="nav-list">
+                                <li class="nav-item"><a href="#" class="nav-link">Accsessories</a></li>
+                                <li class="nav-item"><a href="#" class="nav-link">Bags</a></li>
+                                <li class="nav-item"><a href="#" class="nav-link">Denim</a></li>
+                                <li class="nav-item"><a href="#" class="nav-link">T-Shirts</a></li>
+                            </ul>
+                        </details>
+                        <details>
+                            <summary class="nav-title">WOMAN</summary>
+                            <ul class="nav-list">
+                                <li class="nav-item"><a href="#" class="nav-link">Accsessories</a></li>
+                                <li class="nav-item"><a href="#" class="nav-link">Jackets&Coats</a></li>
+                                <li class="nav-item"><a href="#" class="nav-link">Polos</a></li>
+                                <li class="nav-item"><a href="#" class="nav-link">T-Shirts</a></li>
+                                <li class="nav-item"><a href="#" class="nav-link">Shirts</a></li>
+                            </ul>
+                        </details>
+                        <details>
+                            <summary class="nav-title">KIDS</summary>
+                            <ul class="nav-list">
+                                <li class="nav-item"><a href="#" class="nav-link">Accsessories</a></li>
+                                <li class="nav-item"><a href="#" class="nav-link">Jackets&Coats</a></li>
+                                <li class="nav-item"><a href="#" class="nav-link">Polos</a></li>
+                                <li class="nav-item"><a href="#" class="nav-link">T-Shirts</a></li>
+                                <li class="nav-item"><a href="#" class="nav-link">Shirts</a></li>
+                                <li class="nav-item"><a href="#" class="nav-link">Bags</a></li>
+                            </ul>
+                        </details>
+
+
+
+                    </ul>
+                </nav>
+                <!-- <button>
                     <img class="header-menu" src="img/menu.svg" alt="menu">
-                </button>
+                </button> -->
                 <a href="#">
                     <!-- редактирование файла .svg  -->
                     <svg class="header-account" width="29" height="29" viewBox="0 0 29 29"
@@ -56,7 +100,49 @@
             <div class="wrap filter-wrap">
                 <div class="filter-left">
                     <h2 class="filter-title">FILTER</h2>
-                    <img class="filter-img" src="img/filter-arrivals.svg" alt="filter-img">
+
+
+                    <input type="checkbox" id="filter-left">
+                    <label class="menu-btn" for="filter-left">
+                        <img class="filter-img" src="img/filter-arrivals.svg" alt="filter-img">
+                    </label>
+                    <nav class="nav-filter-left">
+                        <ul class="nav-list">
+                            <details>
+                                <summary class="nav-title">CATEGORY</summary>
+                                <ul class="nav-list">
+                                    <li class="nav-item"><a href="#" class="nav-link">Accsessories</a></li>
+                                    <li class="nav-item"><a href="#" class="nav-link">Bags</a></li>
+                                    <li class="nav-item"><a href="#" class="nav-link">Denim</a></li>
+                                    <li class="nav-item"><a href="#" class="nav-link">T-Shirts</a></li>
+                                </ul>
+                            </details>
+                            <details>
+                                <summary class="nav-title">WOMAN</summary>
+                                <ul class="nav-list">
+                                    <li class="nav-item"><a href="#" class="nav-link">Accsessories</a></li>
+                                    <li class="nav-item"><a href="#" class="nav-link">Jackets&Coats</a></li>
+                                    <li class="nav-item"><a href="#" class="nav-link">Polos</a></li>
+                                    <li class="nav-item"><a href="#" class="nav-link">T-Shirts</a></li>
+                                    <li class="nav-item"><a href="#" class="nav-link">Shirts</a></li>
+                                </ul>
+                            </details>
+                            <details>
+                                <summary class="nav-title">KIDS</summary>
+                                <ul class="nav-list">
+                                    <li class="nav-item"><a href="#" class="nav-link">Accsessories</a></li>
+                                    <li class="nav-item"><a href="#" class="nav-link">Jackets&Coats</a></li>
+                                    <li class="nav-item"><a href="#" class="nav-link">Polos</a></li>
+                                    <li class="nav-item"><a href="#" class="nav-link">T-Shirts</a></li>
+                                    <li class="nav-item"><a href="#" class="nav-link">Shirts</a></li>
+                                    <li class="nav-item"><a href="#" class="nav-link">Bags</a></li>
+                                </ul>
+                            </details>
+
+
+
+                        </ul>
+                    </nav>
                 </div>
                 <div class="filter-right">
                     <a class="filter-right-text" href="#">TRENDING NOW</a>
